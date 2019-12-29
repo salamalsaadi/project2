@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Java learning Page</title>
+    </head>
+    
+    <body>
+        <h1> function named  takes two arguments and print the sentence if the all conditions approved. based on Exercise 2 basic 4</h1>
+        <div id="siteTitle"></div>
+        <script>
+      function   ageCalculator() {
+          "use strict";
+          var cDate = new Date("December 27 2019");
+    
+          var  bYear = new Date("June 01 1988");
+          var mCyear = cDate - bYear;
+          
+          if ( mCyear === cDate - bYear)
+      {
+           document.getElementById("siteTitle").innerHTML = "i am  31 Years old";
+          
+      }else 
+          {
+                        document.getElementById("siteTitle").innerHTML = "i am 30 years old";
+ 
+              
+          }
+              
+        }
+    
+        ageCalculator();
+       
+        </script>
+
+    </body>
+</html>

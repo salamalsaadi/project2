@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Java learning Page</title>
+    </head>
+    
+    <body>
+        <h1> Create a function that calculates the area and volume of a box. </h1>
+        <div id="siteTitle"></div>
+        <script>
+      var  w = prompt("Enter the width of a Box");
+        var l = prompt("Enter the length of a Box");
+        var d = prompt ("Enter the depth of a Box");
+            
+      function   findArea(w, l) {
+          "use strict";
+         return w * l; 
+      }
+            function findVolume(w, l, d) {
+            "use strict";
+                return w * l * d;
+
+            }
+        document.write("the Area of the Box is" + findArea(w, l) + "<br>" );
+        document.write("the Volume of the Box is" + findVolume(w, l, d));
+
+       
+        </script>
+
+    </body>
+</html>
